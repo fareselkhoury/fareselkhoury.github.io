@@ -391,7 +391,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-learning-theory-for-kernel-bilevel-optimization-was-accepted-at-neurips-2025",
+            },},{id: "news-a-simple-inline-announcement",
+          title: 'A simple inline announcement.',
+          description: "",
+          section: "News",},{id: "news-learning-theory-for-kernel-bilevel-optimization-was-accepted-at-neurips-2025",
           title: 'Learning Theory for Kernel Bilevel Optimization was accepted at NeurIPS 2025!',
           description: "",
           section: "News",},{id: "projects-project-1",
