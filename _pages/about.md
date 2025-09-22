@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Student in Machine Learning at [Inria THOTH](https://team.inria.fr/thoth/).
+subtitle: Ph.D. Student in Machine Learning at Inria THOTH.
 
 profile:
   align: right
