@@ -4,7 +4,7 @@
     - title: PhD in Machine Learning
       institution: <a href="https://team.inria.fr/thoth/">Inria THOTH</a>, Grenoble, France
       year: 2024 - 2027
-    - title: Master MVA: Mathematics, Computer Vision, Machine Learning
+    - title: "Master MVA: Mathematics, Computer Vision, Machine Learning"
       institution: <a href="https://www.master-mva.com/">École Normale Supérieure Paris-Saclay</a>, Paris, France
       year: 2022 - 2023
     - title: Master in Fundamental and Applied Mathematics, with a focus on Statistics and Probability
@@ -24,8 +24,7 @@
       institution: <a href="https://cmap.ip-paris.fr/">École Polytechnique</a>, Palaiseau, France
       year: 2023
       description:
-        - Federated Reinforcement Learning: Methods and Advancement.
-
+        - "Federated Reinforcement Learning: Methods and Advancement."
     - title: Research Assistant
       institution: <a href="https://lebcsr.org/">Beirut Research and Innovation Center</a>, Beirut, Lebanon
       year: 2019 - 2021
@@ -39,13 +38,13 @@
     - title: Data Structures and Algorithms (60 hours)
       institution: <a href="https://www.univ-grenoble-alpes.fr/">Université Grenoble Alpes</a>, Grenoble, France
       year: 2024 - Present
-      
+
 - title: Languages
   type: map
-  contents: 
-    - name: English 
+  contents:
+    - name: English
       value: Fluent
     - name: French
       value: Fluent
     - name: Arabic
-      value: Native speaker
+      value: Native Speaker
