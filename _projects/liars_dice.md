@@ -3,7 +3,7 @@ layout: page
 title: Liar’s Dice game featuring a LLM opponent
 description:
 img: assets/img/liars_dice.jpg
-importance: 2
+importance: 3
 category: Research
 ---
 
