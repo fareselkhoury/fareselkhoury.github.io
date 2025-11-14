@@ -7,7 +7,7 @@ importance: 2
 category: Research
 ---
 
-Bilevel optimization for robust learning under dataset corruption.
+Bilevel optimization for robust learning under dataset corruption, implemented in PyTorch.
 
 <div class="mt-4">
     <a href="https://github.com/fareselkhoury/Bilevel-Data-Cleaning" class="btn btn-primary" target="_blank">
