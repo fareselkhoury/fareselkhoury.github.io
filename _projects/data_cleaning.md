@@ -2,7 +2,7 @@
 layout: page
 title: Bilevel Optimization for Data Cleaning
 description:
-img: assets/img/test_acc_baseline.pdf
+img: assets/img/data_cleaning.png
 importance: 2
 category: Research
 ---
