@@ -401,12 +401,7 @@ ninja.data = [{
             },},{id: "news-learning-theory-for-kernel-bilevel-optimization-was-accepted-at-neurips-2025",
           title: 'Learning Theory for Kernel Bilevel Optimization was accepted at NeurIPS 2025!',
           description: "",
-          section: "News",},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
+          section: "News",},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
           section: "Projects",handler: () => {
@@ -446,6 +441,11 @@ ninja.data = [{
           description: "NeurIPS 2025",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ivr/";
+            },},{id: "projects-liar-s-dice-game-featuring-a-llm-opponent",
+          title: 'Liar’s Dice game featuring a LLM opponent',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/liars_dice/";
             },},{
         id: 'social-email',
         title: 'email',
