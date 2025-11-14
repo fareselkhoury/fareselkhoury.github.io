@@ -401,12 +401,7 @@ ninja.data = [{
             },},{id: "news-learning-theory-for-kernel-bilevel-optimization-was-accepted-at-neurips-2025",
           title: 'Learning Theory for Kernel Bilevel Optimization was accepted at NeurIPS 2025!',
           description: "",
-          section: "News",},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
+          section: "News",},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
           section: "Projects",handler: () => {
@@ -446,6 +441,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/liars_dice/";
+            },},{id: "projects-unbalanced-optimal-transport",
+          title: 'Unbalanced Optimal Transport',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/uot/";
             },},{
         id: 'social-email',
         title: 'email',
