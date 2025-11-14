@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -401,12 +401,7 @@ ninja.data = [{
             },},{id: "news-learning-theory-for-kernel-bilevel-optimization-was-accepted-at-neurips-2025",
           title: 'Learning Theory for Kernel Bilevel Optimization was accepted at NeurIPS 2025!',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
+          section: "News",},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
@@ -446,6 +441,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-instrumental-variable-regression-using-bilevel-optimization",
+          title: 'Instrumental Variable Regression using Bilevel Optimization',
+          description: "NeurIPS 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ivr/";
             },},{
         id: 'social-email',
         title: 'email',
