@@ -401,12 +401,7 @@ ninja.data = [{
             },},{id: "news-learning-theory-for-kernel-bilevel-optimization-was-accepted-at-neurips-2025",
           title: 'Learning Theory for Kernel Bilevel Optimization was accepted at NeurIPS 2025!',
           description: "",
-          section: "News",},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
+          section: "News",},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
@@ -436,6 +431,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/data_cleaning/";
+            },},{id: "projects-federated-reinforcement-learning",
+          title: 'Federated Reinforcement Learning',
+          description: "Master&#39;s Thesis at École Polytechnique",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fed_rl/";
             },},{id: "projects-instrumental-variable-regression-using-bilevel-optimization",
           title: 'Instrumental Variable Regression using Bilevel Optimization',
           description: "NeurIPS 2025",
