@@ -15,11 +15,14 @@
   bibtex_show={true},
 }
 
-@article{elkhoury2026generalization,
-  title   = {On Generalization in Bilevel Optimization with Overparameterized Models},
-  author  = {El Khoury, Fares and Pauwels, Edouard and Vaiter, Samuel and Arbel, Michael},
-  journal = {Under review},
-  year    = {2026}
+@inproceedings{elkhoury2026generalization,
+  title={On Generalization in Bilevel Least Squares with Overparameterized Neural Networks},
+  author={El Khoury, Fares and Pauwels, Edouard and Vaiter, Samuel and Arbel, Michael},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2026},
+  abbr={NeurIPS},
+  abstract={Bilevel optimization addresses machine learning problems in which the outer objective is a value function implicitly defined through the solution of an inner problem. While its algorithmic aspects are well developed, its generalization properties remain much less understood. In this paper, we study the generalization of inexact gradient methods when both objectives are least-squares regression problems and when the estimator of the value function's gradient, or hypergradient, is obtained by implicit differentiation in function space. This approach allows us to derive stationarity bounds for these methods in terms of the uniform generalization errors of the two regression functions needed to estimate the hypergradient. When these regression functions are defined as overparameterized two-layer ReLU networks trained by gradient flow with early stopping, we obtain explicit finite-sample bounds on these generalization errors in the Neural Tangent Kernel (NTK) regime. Combining these with our general inexact gradient analysis shows the effect of sample size on the overall convergence of the bilevel method. Numerical experiments on synthetic data illustrate our results. Beyond the NTK regime, further experiments reveal an initialization-dependent implicit bias induced by the bilevel structure, which can lead to feature learning at the inner level and overall performance improvements.},
+  bibtex_show={true},
 }
 
 @article{elkhoury2026semiparametric,
