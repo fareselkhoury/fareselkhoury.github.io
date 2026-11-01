@@ -639,3 +639,5 @@ jsonresume:
   - languages
   - interests
   - references
+
+filtered_bibtex_keywords: [abbr, abstract, ..., preview, first_author]
