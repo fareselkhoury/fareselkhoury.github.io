@@ -13,6 +13,7 @@
   abstract={Bilevel optimization has emerged as a technique for addressing a wide range of machine learning problems that involve an outer objective implicitly determined by the minimizer of an inner problem. While prior works have primarily focused on the parametric setting, a learning-theoretic foundation for bilevel optimization in the nonparametric case remains relatively unexplored. In this paper, we take a first step toward bridging this gap by studying Kernel Bilevel Optimization (KBO), where the inner objective is optimized over a reproducing kernel Hilbert space. This setting enables rich function approximation while providing a foundation for rigorous theoretical analysis. In this context, we derive novel finite-sample generalization bounds for KBO, leveraging tools from empirical process theory. These bounds further allow us to assess the statistical accuracy of gradient-based methods applied to the empirical discretization of KBO. We numerically illustrate our theoretical findings on a synthetic instrumental variable regression task.},
   code={https://github.com/fareselkhoury/KBO},
   bibtex_show={true},
+  first_author = {true},
 }
 
 @inproceedings{elkhoury2026obo,
@@ -26,6 +27,7 @@
   abstract={Bilevel optimization addresses machine learning problems in which the outer objective is a value function implicitly defined through the solution of an inner problem. While its algorithmic aspects are well developed, its generalization properties remain much less understood. In this paper, we study the generalization of inexact gradient methods when both objectives are least-squares regression problems and when the estimator of the value function's gradient, or hypergradient, is obtained by implicit differentiation in function space. This approach allows us to derive stationarity bounds for these methods in terms of the uniform generalization errors of the two regression functions needed to estimate the hypergradient. When these regression functions are defined as overparameterized two-layer ReLU networks trained by gradient flow with early stopping, we obtain explicit finite-sample bounds on these generalization errors in the Neural Tangent Kernel (NTK) regime. Combining these with our general inexact gradient analysis shows the effect of sample size on the overall convergence of the bilevel method. Numerical experiments on synthetic data illustrate our results. Beyond the NTK regime, further experiments reveal an initialization-dependent implicit bias induced by the bilevel structure, which can lead to feature learning at the inner level and overall performance improvements.},
   code={https://github.com/fareselkhoury/OBO},
   bibtex_show={true},
+  first_author = {true},
 }
 
 @article{elkhoury2026semiparametric,
@@ -33,5 +35,6 @@
   author={El Khoury*, Fares and Zenati*, Houssam and Kallus, Nathan and Arbel, Michael and Bibaut, Aurélien},
   journal={Under review},
   year={2026},
-  arxiv={2605.21341}
+  arxiv={2605.21341},
+  first_author = {true},
 }
