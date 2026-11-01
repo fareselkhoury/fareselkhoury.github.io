@@ -37,8 +37,7 @@ table {
 
 a,
 table.table a {
-  color: #fff;
-  background-color: var(--global-theme-color);
+  color: var(--global-theme-color);
 
   &:hover {
     color: var(--global-theme-color);
@@ -1432,15 +1431,15 @@ figure.cover {
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #fff;
-  background-color: var(--global-theme-color);
+  white-space: nowrap;
+  color: var(--global-theme-color);
   border: 1px solid var(--global-theme-color);
   border-radius: 4px;
 }
 
 .first-author-col {
   text-align: right;
-  padding-top: 1.2rem;
+  padding-top: 0.2rem;
 }
 
 @media (max-width: 575.98px) {
