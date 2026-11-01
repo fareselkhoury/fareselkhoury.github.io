@@ -1427,14 +1427,25 @@ figure.cover {
 
 .first-author-badge {
   display: inline-block;
-  margin-left: 0.4rem;
   padding: 0.1rem 0.45rem;
   font-size: 0.65rem;
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--global-theme-color);
+  color: #fff;
+  background-color: var(--global-theme-color);
   border: 1px solid var(--global-theme-color);
   border-radius: 4px;
-  vertical-align: middle;
+}
+
+.first-author-col {
+  text-align: right;
+  padding-top: 1.2rem;
+}
+
+@media (max-width: 575.98px) {
+  .first-author-col {
+    text-align: left;
+    margin-top: 0.5rem;
+  }
 }
